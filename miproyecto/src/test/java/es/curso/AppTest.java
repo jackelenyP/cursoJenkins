@@ -17,4 +17,41 @@ public class AppTest
     {
         assertTrue( true );
     }
+   
+    @Test
+    public void pruebaDoblar(){
+    int resultado = App.doblar(5);
+    
+       Assert.assertEquals( resultado, 10) );
+
+     }
+         @Test
+    public void pruebaDoblar(){
+    int resultado = App.doblar(0);
+       Assert.assertEquals( resultado, 0) );
+     }
+    
+    @Test
+    public void pruebaDoblar(){
+    int resultado = App.doblar(-5);
+       Assert.assertEquals( resultado, -10) );
+     }
+    
+    @Test
+    public void pruebaDoblar(){
+    int resultado = App.mayor(10,5);
+       Assert.assertEquals( resultado, 10) );
+     }
+     
+    @Test
+    public void pruebaDoblar(){
+    int resultado = App.mayor(5,10);
+       Assert.assertEquals( resultado, 10) );
+     }
+     
+    @Test
+    public void pruebaDoblar(){
+    int resultado = App.mayor(5,-10);
+       Assert.assertEquals( resultado, 5) );
+     }
 }
