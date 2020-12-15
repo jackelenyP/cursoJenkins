@@ -17,7 +17,7 @@ public class App
 
     }
     
-     public  int mayor( int numer1, int numero2 ) {
+     public  int mayor( int numero1, int numero2 ) {
          if(numero1> numero2){
              return numero1;
          }
@@ -26,13 +26,6 @@ public class App
 
         }
     
-         public  int menor( int numer1, int numero2 ) {
-         if(numero1< numero2){
-             return numero1;
-         }
-            return numero2;
-        
-
-         }
+       
     
 }
