@@ -12,7 +12,7 @@ public class App
         System.out.println( "Hola jenkins!" );
     }
     
-     public  int dobalar( int numero ) {
+     public  int doblar( int numero ) {
         return numero*2;
 
     }
@@ -24,6 +24,15 @@ public class App
             return numero2;
         
 
-    }
+        }
+    
+         public  int menor( int numer1, int numero2 ) {
+         if(numero1< numero2){
+             return numero1;
+         }
+            return numero2;
+        
+
+         }
     
 }

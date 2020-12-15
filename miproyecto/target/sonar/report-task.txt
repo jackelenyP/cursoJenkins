@@ -1,0 +1,6 @@
+projectKey=curso_jenkins
+serverUrl=http://172.31.3.255:8081
+serverVersion=8.6.0.39681
+dashboardUrl=http://172.31.3.255:8081/dashboard?id=curso_jenkins
+ceTaskId=AXZnUMu665Md5DdnhHWu
+ceTaskUrl=http://172.31.3.255:8081/api/ce/task?id=AXZnUMu665Md5DdnhHWu
