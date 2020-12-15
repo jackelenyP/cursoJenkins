@@ -54,4 +54,10 @@ public class AppTest
     int resultado = App.mayor(5,-10);
        Assert.assertEquals( resultado, 5) );
      }
+     
+         @Test
+    public void pruebaDoblar(){
+    int resultado = App.mayor(-5,-10);
+       Assert.assertEquals( resultado, 5) );
+     }
 }
