@@ -15,9 +15,10 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
+      
         assertTrue( true );
     }
-/*   
+   
     @Test
     public void pruebaDoblar(){
     int resultado = App.doblar(5);
@@ -27,30 +28,30 @@ public class AppTest
      }
   
      @Test
-    public void pruebaDoblar1(){
+    public void pruebaDoblarCero(){
     int resultado = App.doblar(0);
        assertEquals( resultado, 0) ;
      }
     
     @Test
-    public void pruebaDoblar2(){
+    public void pruebaDoblarNegativo(){
     int resultado = App.doblar(-5);
        assertEquals( resultado, -10) ;
      }
     
     @Test
-    public void pruebaDoblar3(){
+    public void pruebaDoblarPrimero(){
     int resultado = App.mayor(10,5);
        assertEquals( resultado, 10) ;
      }
      
     @Test
-    public void pruebaDoblar4(){
+    public void pruebaDoblarSegundo(){
     int resultado = App.mayor(5,10);
      assertEquals( resultado, 10) ;
      }
      
-   @Test
+  /* @Test
     public void pruebaDoblar5(){
     int resultado = App.mayor(5,-10);
       assertEquals( resultado, 5) ;
